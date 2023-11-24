@@ -1,6 +1,5 @@
 provider "google" {
-  project = "obiproject214"
-  region  = "us-west-1"
-  version = "~> 3.0"
+  project = var.gcp_project
+  region  = var.gcp_region
 }
 
